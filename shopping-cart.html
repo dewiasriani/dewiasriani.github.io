@@ -8,7 +8,7 @@
 <meta name="author" content="">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,600,600italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
-<link href="css/bootstrap.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'><link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/flexslider.css" type="text/css" media="screen" rel="stylesheet"  />
@@ -185,7 +185,7 @@
                 </li>
               </ul>
               <ul>
-                <li><img style="display:block" src="img/proudctbanner.jpg" alt="" title="" >
+                <li><img src="img/proudctbanner.jpg" alt="" title="">
                 </li>
               </ul>
             </div>
@@ -234,277 +234,198 @@
 <!-- Header End -->
 
 <div id="maincontainer">
-  <!-- Slider Start-->
-  <section class="slider">
+  <section id="product">
     <div class="container">
-      <div class="flexslider" id="mainslider">
-        <ul class="slides">
-          <li>
-            <img src="img/banner1.jpg" alt="" />
-          </li>
-          <li>
-            <img src="img/banner2.jpg" alt="" />
-          </li>
-          <li>
-            <img src="img/banner1.jpg" alt="" />
-          </li>
-          <li>
-            <img src="img/banner2.jpg" alt="" />
-          </li>
-        </ul>
+     <!--  breadcrumb --> 
+      <ul class="breadcrumb">
+        <li>
+          <a href="#">Home</a>
+          <span class="divider">/</span>
+        </li>
+        <li class="active"> Shopping Cart</li>
+      </ul>       
+      <h1 class="heading1"><span class="maintext"> Shopping Cart</span><span class="subtext"> All items in your  Shopping Cart</span></h1>
+      <!-- Cart-->
+      <div class="cart-info">
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th class="image">Image</th>
+            <th class="name">Product Name</th>
+            <th class="model">Model</th>
+            <th class="quantity">Qty</th>
+              <th class="total">Action</th>
+            <th class="price">Unit Price</th>
+            <th class="total">Total</th>
+           
+          </tr>
+          <tr>
+            <td class="image"><a href="#"><img title="product" alt="product" src="img/prodcut-40x40.jpg" height="50" width="50"></a></td>
+            <td  class="name"><a href="#">Jeans</a></td>
+            <td class="model">Purchased Product</td>
+            <td class="quantity"><input type="text" size="1" value="1" name="quantity[40]" class="span1">
+             
+             </td>
+             <td class="total"> <a href="#"><img class="tooltip-test" data-original-title="Update" src="img/update.png" alt=""></a>
+              <a href="#"><img class="tooltip-test" data-original-title="Remove"  src="img/remove.png" alt=""></a></td>
+           
+             
+            <td class="price">$120.68</td>
+            <td class="total">$120.68</td>
+             
+          </tr>
+          
+          
+          <tr>
+            <td class="image"><a href="#"><img title="product" alt="product" src="img/prodcut-40x40.jpg" height="50" width="50"></a></td>
+            <td  class="name"><a href="#">T-shirt</a></td>
+            <td class="model">Purchased Product</td>
+            <td class="quantity"><input type="text" size="1" value="1" name="quantity[40]" class="span1">
+             
+             </td>
+             <td class="total"> <a href="#"><img class="tooltip-test" data-original-title="Update" src="img/update.png" alt=""></a>
+              <a href="#"><img class="tooltip-test" data-original-title="Remove"  src="img/remove.png" alt=""></a></td>
+           
+             
+            <td class="price">$120.68</td>
+            <td class="total">$120.68</td>
+             
+          </tr>
+          <tr>
+            <td class="image"><a href="#"><img title="product" alt="product" src="img/prodcut-40x40.jpg" height="50" width="50"></a></td>
+            <td  class="name"><a href="#">Shirt</a></td>
+            <td class="model">Purchased Product</td>
+            <td class="quantity"><input type="text" size="1" value="1" name="quantity[40]" class="span1">
+             
+             </td>
+             <td class="total"> <a href="#"><img class="tooltip-test" data-original-title="Update" src="img/update.png" alt=""></a>
+              <a href="#"><img class="tooltip-test" data-original-title="Remove"  src="img/remove.png" alt=""></a></td>
+           
+             
+            <td class="price">$120.68</td>
+            <td class="total">$120.68</td>
+             
+          </tr>
+          <tr>
+            <td class="image"><a href="#"><img title="product" alt="product" src="img/prodcut-40x40.jpg" height="50" width="50"></a></td>
+            <td  class="name"><a href="#">Camera</a></td>
+            <td class="model">Purchased Product</td>
+            <td class="quantity"><input type="text" size="1" value="1" name="quantity[40]" class="span1">
+             
+             </td>
+             <td class="total"> <a href="#"><img class="tooltip-test" data-original-title="Update" src="img/update.png" alt=""></a>
+              <a href="#"><img class="tooltip-test" data-original-title="Remove"  src="img/remove.png" alt=""></a></td>
+           
+             
+            <td class="price">$120.68</td>
+            <td class="total">$120.68</td>
+             
+          </tr>
+          <tr>
+            <td class="image"><a href="#"><img title="product" alt="product" src="img/prodcut-40x40.jpg" height="50" width="50"></a></td>
+            <td  class="name"><a href="#">Mobile</a></td>
+            <td class="model">Purchased Product</td>
+            <td class="quantity"><input type="text" size="1" value="1" name="quantity[40]" class="span1">
+             
+             </td>
+             <td class="total"> <a href="#"><img class="tooltip-test" data-original-title="Update" src="img/update.png" alt=""></a>
+              <a href="#"><img class="tooltip-test" data-original-title="Remove"  src="img/remove.png" alt=""></a></td>
+           
+             
+            <td class="price">$120.68</td>
+            <td class="total">$120.68</td>
+             
+          </tr>
+          <tr>
+            <td class="image"><a href="#"><img title="product" alt="product" src="img/prodcut-40x40.jpg" height="50" width="50"></a></td>
+            <td  class="name"><a href="#">Jeans</a></td>
+            <td class="model">Purchased Product</td>
+            <td class="quantity"><input type="text" size="1" value="1" name="quantity[40]" class="span1">
+             
+             </td>
+             <td class="total"> <a href="#"><img class="tooltip-test" data-original-title="Update" src="img/update.png" alt=""></a>
+              <a href="#"><img class="tooltip-test" data-original-title="Remove"  src="img/remove.png" alt=""></a></td>
+           
+             
+            <td class="price">$120.68</td>
+            <td class="total">$120.68</td>
+             
+          </tr>
+          <tr>
+            <td class="image"><a href="#"><img title="product" alt="product" src="img/prodcut-40x40.jpg" height="50" width="50"></a></td>
+            <td  class="name"><a href="#">Jeans</a></td>
+            <td class="model">Purchased Product</td>
+            <td class="quantity"><input type="text" size="1" value="1" name="quantity[40]" class="span1">
+             
+             </td>
+             <td class="total"> <a href="#"><img class="tooltip-test" data-original-title="Update" src="img/update.png" alt=""></a>
+              <a href="#"><img class="tooltip-test" data-original-title="Remove"  src="img/remove.png" alt=""></a></td>
+           
+             
+            <td class="price">$120.68</td>
+            <td class="total">$120.68</td>
+             
+          </tr>
+        </table>
       </div>
-    </div>
-  </section>
-  <!-- Slider End-->
-  
-  <!-- Section Start-->
-  <section class="container otherddetails">
-    <div class="otherddetailspart">
-      <div class="innerclass free">
-        <h2>Free shipping</h2>
-        All over in world over $200 </div>
-    </div>
-    <div class="otherddetailspart">
-      <div class="innerclass payment">
-        <h2>Easy Payment</h2>
-        Payment Gatway support </div>
-    </div>
-    <div class="otherddetailspart">
-      <div class="innerclass shipping">
-        <h2>24hrs Shipping</h2>
-        Free For UK Customers </div>
-    </div>
-    <div class="otherddetailspart">
-      <div class="innerclass choice">
-        <h2>Over 5000 Choice</h2>
-        50,000+ Products </div>
-    </div>
-  </section>
-  <!-- Section End-->
-  
-  <!-- Featured Product-->
-  <section id="featured" class="row mt40">
-    <div class="container">
-      <h1 class="heading1"><span class="maintext">Featured Products</span><span class="subtext"> See Our Most featured Products</span></h1>
-      <ul class="thumbnails">
-        <li class="span3">
-          <a class="prdocutname" href="product.html">Product Name Here</a>
-          <div class="thumbnail">
-            <span class="sale tooltip-test">Sale</span>
-            <a href="#"><img alt="" src="img/product1.jpg"></a>
-            <div class="shortlinks">
-              <a class="details" href="#">DETAILS</a>
-              <a class="wishlist" href="#">WISHLIST</a>
-              <a class="compare" href="#">COMPARE</a>
-            </div>
-            <div class="pricetag">
-              <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
-              <div class="price">
-                <div class="pricenew">$4459.00</div>
-                <div class="priceold">$5000.00</div>
+      <div class="cartoptionbox">
+        <h4 class="heading4"> Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost. </h4>
+        <input type="radio" class="radio">
+        Use Coupon Code <br>
+        <input type="radio" class="radio">
+        Use Gift Voucher <br>
+        <input type="radio" class="radio" checked="checked">
+        Estimate Shipping & Taxes <br><br>
+        <form class="form-vertical form-inline">
+          <h4 class="heading4"> Enter your destination to get a shipping estimate.</h4>
+          <fieldset>
+            <div class="control-group">
+              <label  class="control-label">Select list</label>
+              <div class="controls">
+                <select  class="span3 cartcountry">
+                  <option>Country:</option>
+                  <option>United Kindom</option>
+                  <option>United States</option>
+                </select>
+                <select class="span3 cartstate">
+                  <option>Region / State:</option>
+                  <option>Angus</option>
+                  <option>highlands</option>
+                </select>
+                <input type="submit" value="Get Quotes" class="btn btn-orange">
               </div>
             </div>
-          </div>
-        </li>
-        <li class="span3">
-          <a class="prdocutname" href="product.html">Product Name Here</a>
-          <div class="thumbnail">
-            <a href="#"><img alt="" src="img/product2.jpg"></a>
-            <div class="shortlinks">
-              <a class="details" href="#">DETAILS</a>
-              <a class="wishlist" href="#">WISHLIST</a>
-              <a class="compare" href="#">COMPARE</a>
-            </div>
-            <div class="pricetag">
-              <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
-              <div class="price">
-                <div class="pricenew">$4459.00</div>
-                <div class="priceold">$5000.00</div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="span3">
-          <a class="prdocutname" href="product.html">Product Name Here</a>
-          <div class="thumbnail">
-            <span class="offer tooltip-test" >Offer</span>
-            <a href="#"><img alt="" src="img/product1.jpg"></a>
-            <div class="shortlinks">
-              <a class="details" href="#">DETAILS</a>
-              <a class="wishlist" href="#">WISHLIST</a>
-              <a class="compare" href="#">COMPARE</a>
-            </div>
-            <div class="pricetag">
-              <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
-              <div class="price">
-                <div class="pricenew">$4459.00</div>
-                <div class="priceold">$5000.00</div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="span3">
-          <a class="prdocutname" href="product.html">Product Name Here</a>
-          <div class="thumbnail">
-            <a href="#"><img alt="" src="img/product2.jpg"></a>
-            <div class="shortlinks">
-              <a class="details" href="#">DETAILS</a>
-              <a class="wishlist" href="#">WISHLIST</a>
-              <a class="compare" href="#">COMPARE</a>
-            </div>
-            <div class="pricetag">
-              <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
-              <div class="price">
-                <div class="pricenew">$4459.00</div>
-                <div class="priceold">$5000.00</div>
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
-  
-  <!-- Latest Product-->
-  <section id="latest" class="row">
-    <div class="container">
-      <h1 class="heading1"><span class="maintext">Latest Products</span><span class="subtext"> See Our  Latest Products</span></h1>
-      <ul class="thumbnails">
-        <li class="span3">
-          <a class="prdocutname" href="product.html">Product Name Here</a>
-          <div class="thumbnail">
-            <a href="#"><img alt="" src="img/product1a.jpg"></a>
-            <div class="shortlinks">
-              <a class="details" href="#">DETAILS</a>
-              <a class="wishlist" href="#">WISHLIST</a>
-              <a class="compare" href="#">COMPARE</a>
-            </div>
-            <div class="pricetag">
-              <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
-              <div class="price">
-                <div class="pricenew">$4459.00</div>
-                <div class="priceold">$5000.00</div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="span3">
-          <a class="prdocutname" href="product.html">Product Name Here</a>
-          <div class="thumbnail">
-            <a href="#"><img alt="" src="img/product2a.jpg"></a>
-            <div class="shortlinks">
-              <a class="details" href="#">DETAILS</a>
-              <a class="wishlist" href="#">WISHLIST</a>
-              <a class="compare" href="#">COMPARE</a>
-            </div>
-            <div class="pricetag">
-              <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
-              <div class="price">
-                <div class="pricenew">$4459.00</div>
-                <div class="priceold">$5000.00</div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="span3">
-          <a class="prdocutname" href="product.html">Product Name Here</a>
-          <div class="thumbnail">
-            <span class="new tooltip-test" >New</span>
-            <a href="#"><img alt="" src="img/product1a.jpg"></a>
-            <div class="shortlinks">
-              <a class="details" href="#">DETAILS</a>
-              <a class="wishlist" href="#">WISHLIST</a>
-              <a class="compare" href="#">COMPARE</a>
-            </div>
-            <div class="pricetag">
-              <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
-              <div class="price">
-                <div class="pricenew">$4459.00</div>
-                <div class="priceold">$5000.00</div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="span3">
-          <a class="prdocutname" href="product.html">Product Name Here</a>
-          <div class="thumbnail">
-            <a href="#"><img alt="" src="img/product2a.jpg"></a>
-            <div class="shortlinks">
-              <a class="details" href="#">DETAILS</a>
-              <a class="wishlist" href="#">WISHLIST</a>
-              <a class="compare" href="#">COMPARE</a>
-            </div>
-            <div class="pricetag">
-              <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
-              <div class="price">
-                <div class="pricenew">$4459.00</div>
-                <div class="priceold">$5000.00</div>
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
-  
-  <!-- Section  Banner Start-->
-  <section class="container smbanner">
-    <div class="row">
-      <div class="span3"><a href="#"><img src="img/smbanner.jpg" alt="" title=""></a>
-      </div>
-      <div class="span3"><a href="#"><img src="img/smbanner.jpg" alt="" title=""></a>
-      </div>
-      <div class="span3"><a href="#"><img src="img/smbanner.jpg" alt="" title=""></a>
-      </div>
-      <div class="span3"><a href="#"><img src="img/smbanner.jpg" alt="" title=""></a>
-      </div>
-    </div>
-  </section>
-  <!-- Section  End-->
-  
-  <!-- Popular Brands-->
-  <section id="popularbrands" class="container mt40">
-    <h1 class="heading1"><span class="maintext">Popular Brands</span><span class="subtext"> See Our  Popular Brands</span></h1>
-    <div class="brandcarousalrelative">
-      <ul id="brandcarousal">
-        <li><img src="img/brand1.jpg" alt="" title=""/></li>
-        <li><img src="img/brand2.jpg" alt="" title=""/></li>
-        <li><img src="img/brand3.jpg" alt="" title=""/></li>
-        <li><img src="img/brand4.jpg" alt="" title=""/></li>
-        <li><img src="img/brand1.jpg" alt="" title=""/></li>
-        <li><img src="img/brand2.jpg" alt="" title=""/></li>
-        <li><img src="img/brand3.jpg" alt="" title=""/></li>
-        <li><img src="img/brand4.jpg" alt="" title=""/></li>
-        <li><img src="img/brand1.jpg" alt="" title=""/></li>
-        <li><img src="img/brand2.jpg" alt="" title=""/></li>
-        <li><img src="img/brand3.jpg" alt="" title=""/></li>
-        <li><img src="img/brand4.jpg" alt="" title=""/></li>
-      </ul>
-      <div class="clearfix"></div>
-      <a id="prev" class="prev" href="#">&lt;</a>
-      <a id="next" class="next" href="#">&gt;</a>
-    </div>
-  </section>
-  
-  <!-- Newsletter Signup-->
-  <section id="newslettersignup" class="mt40">
-    <div class="container">
-      <div class="pull-left newsletter">
-        <h2> Newsletters Signup</h2>
-        Sign up to Our Newsletter & get attractive Offers by subscribing to our newsletters. </div>
-      <div class="pull-right">
-        <form class="form-horizontal">
-          <div class="input-prepend">
-            <input type="text" placeholder="Subscribe to Newsletter" id="inputIcon" class="input-xlarge">
-            <input value="Subscribe" class="btn btn-orange" type="submit">
-            Sign in           
-          </div>
+          </fieldset>
         </form>
       </div>
+      <div class="container">
+      <div class="pull-right">
+          <div class="span4 pull-right">
+            <table class="table table-striped table-bordered ">
+              <tr>
+                <td><span class="extra bold">Sub-Total :</span></td>
+                <td><span class="bold">$101.0</span></td>
+              </tr>
+              <tr>
+                <td><span class="extra bold">Eco Tax (-5.00) :</span></td>
+                <td><span class="bold">$11.0</span></td>
+              </tr>
+              <tr>
+                <td><span class="extra bold">VAT (18.2%) :</span></td>
+                <td><span class="bold">$21.0</span></td>
+              </tr>
+              <tr>
+                <td><span class="extra bold totalamout">Total :</span></td>
+                <td><span class="bold totalamout">$150.28</span></td>
+              </tr>
+            </table>
+            <input type="submit" value="CheckOut" class="btn btn-orange pull-right">
+            <input type="submit" value="Continue Shopping" class="btn btn-orange pull-right mr10">
+          </div>
+        </div>
+        </div>
     </div>
   </section>
 </div>
-<!-- /maincontainer -->
 
 <!-- Footer -->
 <footer id="footer">
@@ -578,7 +499,7 @@ document.write('<fb:fan profile_id="80655071208" stream="0"	connections="6"	logo
       </div>
     </div>
   </section>
-  <a id="gotop" href="http://www.mafiashare.net">Back to top</a>
+  <a id="gotop" href="#">Back to top</a>
 </footer>
 <!-- javascript
     ================================================== -->

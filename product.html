@@ -8,7 +8,7 @@
 <meta name="author" content="">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,600,600italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
-<link href="css/bootstrap.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'><link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/flexslider.css" type="text/css" media="screen" rel="stylesheet"  />
@@ -185,7 +185,7 @@
                 </li>
               </ul>
               <ul>
-                <li><img style="display:block" src="img/proudctbanner.jpg" alt="" title="" >
+                <li><img src="img/proudctbanner.jpg" alt="" title="">
                 </li>
               </ul>
             </div>
@@ -234,58 +234,223 @@
 <!-- Header End -->
 
 <div id="maincontainer">
-  <!-- Slider Start-->
-  <section class="slider">
-    <div class="container">
-      <div class="flexslider" id="mainslider">
-        <ul class="slides">
-          <li>
-            <img src="img/banner1.jpg" alt="" />
-          </li>
-          <li>
-            <img src="img/banner2.jpg" alt="" />
-          </li>
-          <li>
-            <img src="img/banner1.jpg" alt="" />
-          </li>
-          <li>
-            <img src="img/banner2.jpg" alt="" />
-          </li>
-        </ul>
+  <section id="product">
+    <div class="container">      
+      <!-- Product Details-->
+      <div class="row">
+       <!-- Left Image-->
+        <div class="span5">
+          <ul class="thumbnails mainimage">
+            <li class="span5">
+              <a  rel="position: 'inside' , showTitle: false, adjustX:-4, adjustY:-4" class="thumbnail cloud-zoom" href="img/product1big.jpg">
+                <img src="img/product1big.jpg" alt="" title="">
+              </a>
+            </li>
+            <li class="span5">
+              <a  rel="position: 'inside' , showTitle: false, adjustX:-4, adjustY:-4" class="thumbnail cloud-zoom" href="img/product2big.jpg">
+                <img  src="img/product2big.jpg" alt="" title="">
+              </a>
+            </li>
+            <li class="span5">
+              <a  rel="position: 'inside' , showTitle: false, adjustX:-4, adjustY:-4" class="thumbnail cloud-zoom" href="img/product1big.jpg">
+                <img src="img/product1big.jpg" alt="" title="">
+              </a>
+            </li>
+            <li class="span5">
+              <a  rel="position: 'inside' , showTitle: false, adjustX:-4, adjustY:-4" class="thumbnail cloud-zoom" href="img/product2big.jpg">
+                <img  src="img/product2big.jpg" alt="" title="">
+              </a>
+            </li>
+          </ul>
+          <span>Mouse move on Image to zoom</span>
+          <ul class="thumbnails mainimage">
+            <li class="producthtumb">
+              <a class="thumbnail" >
+                <img  src="img/product1.jpg" alt="" title="">
+              </a>
+            </li>
+            <li class="producthtumb">
+              <a class="thumbnail" >
+                <img  src="img/product2.jpg" alt="" title="">
+              </a>
+            </li>
+            <li class="producthtumb">
+              <a class="thumbnail" >
+                <img  src="img/product1.jpg" alt="" title="">
+              </a>
+            </li>
+            <li class="producthtumb">
+              <a class="thumbnail" >
+                <img  src="img/product2.jpg" alt="" title="">
+              </a>
+            </li>
+          </ul>
+        </div>
+         <!-- Right Details-->
+        <div class="span7">
+          <div class="row">
+            <div class="span7">
+              <h1 class="productname"><span class="bgnone">My First Simle One Ecommerce template</span></h1>
+              <div class="productprice">
+                <div class="productpageprice">
+                  <span class="spiral"></span>$230.00</div>
+                <div class="productpageoldprice">Old price : $345.00</div>
+                <ul class="rate">
+                  <li class="on"></li>
+                  <li class="on"></li>
+                  <li class="on"></li>
+                  <li class="off"></li>
+                  <li class="off"></li>
+                </ul>
+              </div>
+              <div class="quantitybox">
+                <select class="selectsize">
+                  <option>Select Size</option>
+                  <option>Red</option>
+                  <option>Green</option>
+                  <option>Blue</option>
+                  <option>Black</option>
+                </select>
+                <select class="selectqty">
+                  <option>Select</option>
+                  <option>24</option>
+                  <option>36</option>
+                  <option>48</option>
+                </select>
+                <div class="clear"></div>
+                <div class="control-group">
+                  <div class="controls">
+                    <label class="checkbox">
+                      <input type="checkbox" name="optionsCheckboxList2" value="option2">
+                      Option two can also be checked and included in form results </label>
+                    <label class="checkbox">
+                      <input type="checkbox" name="optionsCheckboxList3" value="option3">
+                      Option three can&mdash;yes, you guessed it&mdash;also be checked and included in form results </label>
+                    `
+                    <label class="radio">
+                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                      Option one is this and that—be sure to include why it's great </label>
+                    <label class="radio">
+                      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                      Option two can be something else and selecting it will deselect option one </label>
+                  </div>
+                </div>
+              </div>
+              <ul class="productpagecart">
+                <li><a class="cart" href="#">Add to Cart</a>
+                </li>
+                <li><a class="wish" href="#" >Add to Wishlist</a>
+                </li>
+                <li><a class="comare" href="#" >Add to Compare</a>
+                </li>
+              </ul>
+         <!-- Product Description tab & comments-->
+         <div class="productdesc">
+                <ul class="nav nav-tabs" id="myTab">
+                  <li class="active"><a href="#description">Description</a>
+                  </li>
+                  <li><a href="#specification">Specification</a>
+                  </li>
+                  <li><a href="#review">Review</a>
+                  </li>
+                  <li><a href="#producttag">Tags</a>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane active" id="description">
+                    <h2>h2 tag will be appear</h2>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum <br>
+                    <br>
+                    <ul class="listoption3">
+                      <li>Lorem ipsum dolor sit amet Consectetur adipiscing elit</li>
+                      <li>Integer molestie lorem at massa Facilisis in pretium nisl aliquet</li>
+                      <li>Nulla volutpat aliquam velit </li>
+                      <li>Faucibus porta lacus fringilla vel Aenean sit amet erat nunc Eget porttitor lorem</li>
+                    </ul>
+                  </div>
+                  <div class="tab-pane " id="specification">
+                    <ul class="productinfo">
+                      <li>
+                        <span class="productinfoleft"> Product Code:</span> Product 16 </li>
+                      <li>
+                        <span class="productinfoleft"> Reward Points:</span> 60 </li>
+                      <li>
+                        <span class="productinfoleft"> Availability: </span> In Stock </li>
+                      <li>
+                        <span class="productinfoleft"> Old Price: </span> $500.00 </li>
+                      <li>
+                        <span class="productinfoleft"> Ex Tax: </span> $500.00 </li>
+                      <li>
+                        <span class="productinfoleft"> Ex Tax: </span> $500.00 </li>
+                      <li>
+                        <span class="productinfoleft"> Product Code:</span> Product 16 </li>
+                      <li>
+                        <span class="productinfoleft"> Reward Points:</span> 60 </li>
+                    </ul>
+                  </div>
+                  <div class="tab-pane" id="review">
+                    <h3>Write a Review</h3>
+                    <form class="form-vertical">
+                      <fieldset>
+                        <div class="control-group">
+                          <label class="control-label">Text input</label>
+                          <div class="controls">
+                            <input type="text" class="span3">
+                          </div>
+                        </div>
+                        <div class="control-group">
+                          <label class="control-label">Textarea</label>
+                          <div class="controls">
+                            <textarea rows="3"  class="span3"></textarea>
+                          </div>
+                        </div>
+                      </fieldset>
+                      <input type="submit" class="btn btn-orange" value="continue">
+                    </form>
+                  </div>
+                  <div class="tab-pane" id="producttag">
+                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum <br>
+                      <br>
+                    </p>
+                    <ul class="tags">
+                      <li><a href="#"><i class="icon-tag"></i> Webdesign</a>
+                      </li>
+                      <li><a href="#"><i class="icon-tag"></i> html</a>
+                      </li>
+                      <li><a href="#"><i class="icon-tag"></i> html</a>
+                      </li>
+                      <li><a href="#"><i class="icon-tag"></i> css</a>
+                      </li>
+                      <li><a href="#"><i class="icon-tag"></i> jquery</a>
+                      </li>
+                      <li><a href="#"><i class="icon-tag"></i> css</a>
+                      </li>
+                      <li><a href="#"><i class="icon-tag"></i> jquery</a>
+                      </li>
+                      <li><a href="#"><i class="icon-tag"></i> Webdesign</a>
+                      </li>
+                      <li><a href="#"><i class="icon-tag"></i> css</a>
+                      </li>
+                      <li><a href="#"><i class="icon-tag"></i> jquery</a>
+                      </li>
+                      <li><a href="#"><i class="icon-tag"></i> Webdesign</a>
+                      </li>
+                      <li><a href="#"><i class="icon-tag"></i> html</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <!-- Slider End-->
-  
-  <!-- Section Start-->
-  <section class="container otherddetails">
-    <div class="otherddetailspart">
-      <div class="innerclass free">
-        <h2>Free shipping</h2>
-        All over in world over $200 </div>
-    </div>
-    <div class="otherddetailspart">
-      <div class="innerclass payment">
-        <h2>Easy Payment</h2>
-        Payment Gatway support </div>
-    </div>
-    <div class="otherddetailspart">
-      <div class="innerclass shipping">
-        <h2>24hrs Shipping</h2>
-        Free For UK Customers </div>
-    </div>
-    <div class="otherddetailspart">
-      <div class="innerclass choice">
-        <h2>Over 5000 Choice</h2>
-        50,000+ Products </div>
-    </div>
-  </section>
-  <!-- Section End-->
-  
-  <!-- Featured Product-->
-  <section id="featured" class="row mt40">
+  <!--  Related Products-->
+  <section id="related" class="row">
     <div class="container">
-      <h1 class="heading1"><span class="maintext">Featured Products</span><span class="subtext"> See Our Most featured Products</span></h1>
+      <h1 class="heading1"><span class="maintext">Related Products</span><span class="subtext"> See Our Most featured Products</span></h1>
       <ul class="thumbnails">
         <li class="span3">
           <a class="prdocutname" href="product.html">Product Name Here</a>
@@ -364,106 +529,8 @@
       </ul>
     </div>
   </section>
-  
-  <!-- Latest Product-->
-  <section id="latest" class="row">
-    <div class="container">
-      <h1 class="heading1"><span class="maintext">Latest Products</span><span class="subtext"> See Our  Latest Products</span></h1>
-      <ul class="thumbnails">
-        <li class="span3">
-          <a class="prdocutname" href="product.html">Product Name Here</a>
-          <div class="thumbnail">
-            <a href="#"><img alt="" src="img/product1a.jpg"></a>
-            <div class="shortlinks">
-              <a class="details" href="#">DETAILS</a>
-              <a class="wishlist" href="#">WISHLIST</a>
-              <a class="compare" href="#">COMPARE</a>
-            </div>
-            <div class="pricetag">
-              <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
-              <div class="price">
-                <div class="pricenew">$4459.00</div>
-                <div class="priceold">$5000.00</div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="span3">
-          <a class="prdocutname" href="product.html">Product Name Here</a>
-          <div class="thumbnail">
-            <a href="#"><img alt="" src="img/product2a.jpg"></a>
-            <div class="shortlinks">
-              <a class="details" href="#">DETAILS</a>
-              <a class="wishlist" href="#">WISHLIST</a>
-              <a class="compare" href="#">COMPARE</a>
-            </div>
-            <div class="pricetag">
-              <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
-              <div class="price">
-                <div class="pricenew">$4459.00</div>
-                <div class="priceold">$5000.00</div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="span3">
-          <a class="prdocutname" href="product.html">Product Name Here</a>
-          <div class="thumbnail">
-            <span class="new tooltip-test" >New</span>
-            <a href="#"><img alt="" src="img/product1a.jpg"></a>
-            <div class="shortlinks">
-              <a class="details" href="#">DETAILS</a>
-              <a class="wishlist" href="#">WISHLIST</a>
-              <a class="compare" href="#">COMPARE</a>
-            </div>
-            <div class="pricetag">
-              <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
-              <div class="price">
-                <div class="pricenew">$4459.00</div>
-                <div class="priceold">$5000.00</div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="span3">
-          <a class="prdocutname" href="product.html">Product Name Here</a>
-          <div class="thumbnail">
-            <a href="#"><img alt="" src="img/product2a.jpg"></a>
-            <div class="shortlinks">
-              <a class="details" href="#">DETAILS</a>
-              <a class="wishlist" href="#">WISHLIST</a>
-              <a class="compare" href="#">COMPARE</a>
-            </div>
-            <div class="pricetag">
-              <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
-              <div class="price">
-                <div class="pricenew">$4459.00</div>
-                <div class="priceold">$5000.00</div>
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
-  
-  <!-- Section  Banner Start-->
-  <section class="container smbanner">
-    <div class="row">
-      <div class="span3"><a href="#"><img src="img/smbanner.jpg" alt="" title=""></a>
-      </div>
-      <div class="span3"><a href="#"><img src="img/smbanner.jpg" alt="" title=""></a>
-      </div>
-      <div class="span3"><a href="#"><img src="img/smbanner.jpg" alt="" title=""></a>
-      </div>
-      <div class="span3"><a href="#"><img src="img/smbanner.jpg" alt="" title=""></a>
-      </div>
-    </div>
-  </section>
-  <!-- Section  End-->
-  
   <!-- Popular Brands-->
-  <section id="popularbrands" class="container mt40">
+  <section id="popularbrands" class="container">
     <h1 class="heading1"><span class="maintext">Popular Brands</span><span class="subtext"> See Our  Popular Brands</span></h1>
     <div class="brandcarousalrelative">
       <ul id="brandcarousal">
@@ -485,26 +552,7 @@
       <a id="next" class="next" href="#">&gt;</a>
     </div>
   </section>
-  
-  <!-- Newsletter Signup-->
-  <section id="newslettersignup" class="mt40">
-    <div class="container">
-      <div class="pull-left newsletter">
-        <h2> Newsletters Signup</h2>
-        Sign up to Our Newsletter & get attractive Offers by subscribing to our newsletters. </div>
-      <div class="pull-right">
-        <form class="form-horizontal">
-          <div class="input-prepend">
-            <input type="text" placeholder="Subscribe to Newsletter" id="inputIcon" class="input-xlarge">
-            <input value="Subscribe" class="btn btn-orange" type="submit">
-            Sign in           
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
 </div>
-<!-- /maincontainer -->
 
 <!-- Footer -->
 <footer id="footer">
@@ -578,7 +626,7 @@ document.write('<fb:fan profile_id="80655071208" stream="0"	connections="6"	logo
       </div>
     </div>
   </section>
-  <a id="gotop" href="http://www.mafiashare.net">Back to top</a>
+  <a id="gotop" href="#">Back to top</a>
 </footer>
 <!-- javascript
     ================================================== -->
